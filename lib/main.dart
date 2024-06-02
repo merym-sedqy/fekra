@@ -1,8 +1,12 @@
 
+import 'package:fekra/sql_helper.dart';
 import 'package:fekra/table.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  var sqlHelper = SqlHelper();
+  sqlHelper.db;
+  
   runApp(MyApp(),);
 }
 
